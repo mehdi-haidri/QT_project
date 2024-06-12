@@ -28,6 +28,8 @@ private slots:
 
     void on_tableView_department_clicked(const QModelIndex &index);
 
+    void on_departement_project_clicked();
+
 private:
     Ui::MainWindow *ui;
 

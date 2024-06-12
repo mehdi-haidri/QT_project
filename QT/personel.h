@@ -33,8 +33,11 @@ private slots:
 
     void on_tableView_clicked(const QModelIndex &index);
 
+    void on_personel_rejected();
+
 private:
     Ui::personel *ui;
+    QWidget *parent;
 
     QSqlQuery *sorgu;
 

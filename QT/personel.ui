@@ -26,10 +26,10 @@
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>30</y>
+     <x>30</x>
+     <y>40</y>
      <width>271</width>
-     <height>281</height>
+     <height>321</height>
     </rect>
    </property>
    <property name="title">
@@ -111,7 +111,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>180</y>
+      <y>210</y>
       <width>75</width>
       <height>24</height>
      </rect>
@@ -123,8 +123,8 @@
    <widget class="QPushButton" name="pushButton_degistir">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>180</y>
+      <x>160</x>
+      <y>210</y>
       <width>75</width>
       <height>24</height>
      </rect>
@@ -136,8 +136,8 @@
    <widget class="QPushButton" name="pushButton_sil">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>230</y>
+      <x>90</x>
+      <y>270</y>
       <width>75</width>
       <height>24</height>
      </rect>
@@ -167,6 +167,29 @@
     </property>
     <property name="text">
      <string>Department No:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>password</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>160</y>
+      <width>113</width>
+      <height>24</height>
+     </rect>
     </property>
    </widget>
   </widget>

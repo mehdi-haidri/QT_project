@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Sil</string>
+    <string>delete</string>
    </property>
   </widget>
   <widget class="QTableView" name="tableView">

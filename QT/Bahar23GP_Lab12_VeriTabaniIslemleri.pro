@@ -9,18 +9,24 @@ CONFIG += c++17
 DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    departement_project.cpp \
     departman.cpp \
+    login.cpp \
     main.cpp \
     mainwindow.cpp \
     personel.cpp
 
 HEADERS += \
+    departement_project.h \
     departman.h \
+    login.h \
     mainwindow.h \
     personel.h
 
 FORMS += \
+    departement_project.ui \
     departman.ui \
+    login.ui \
     mainwindow.ui \
     personel.ui
 
@@ -28,3 +34,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    resource.qrc

@@ -33,7 +33,13 @@ private slots:
 
     void on_pushButton_sil_clicked();
 
+
+
+    void on_departman_rejected();
+
 private:
+    QWidget *parent;
+
     Ui::departman *ui;
 
     QSqlQuery *sorgu;
